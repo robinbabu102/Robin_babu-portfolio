@@ -89,11 +89,11 @@ const Projects = () => {
               </div>
               <div className="flex justify-between"></div>
               <a
-                href="#"
+                href="https://github.com/robinbabu102/Product_Management_System.git"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
               >
                 {" "}
-                View project →
+                GitHub →
               </a>
             </div>
 
@@ -134,11 +134,11 @@ const Projects = () => {
               </div>
               <div className="flex justify-between"></div>
               <a
-                href="#"
+                href="https://github.com/robinbabu102/Bank_Management_System.git"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
               >
                 {" "}
-                View project →
+                Github →
               </a>
             </div>
 
@@ -173,13 +173,13 @@ const Projects = () => {
                 )}
               </div>
               <div className="flex justify-between"></div>
-              <a
+              {/* <a
                 href="#"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
               >
                 {" "}
                 View project →
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
