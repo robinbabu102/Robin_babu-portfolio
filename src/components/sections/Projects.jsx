@@ -61,15 +61,68 @@ const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">Product App</h3>
               <p className="text-gray-200 mb-4">
-                I developed a Produce App with basic CRUD operations. The app
-                features a shopping cart where users can add products for
-                purchase, enhancing the user experience with seamless product
-                management. Designed for simplicity and efficiency, the
-                application ensures smooth navigation and interaction, making it
-                easy to manage inventory and transactions.
+                Developed a full-stack web application for efficient product
+                management, leveraging Spring MVC for request handling,
+                Hibernate ORM for seamless database interaction, and MySQL for
+                data persistence. Designed and implemented DAO and Service
+                layers to ensure modular architecture and maintainability.
+                Utilized JSP with JSTL for dynamic UI rendering and Spring
+                validation for form handling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Java (Spring MVC)", "HTML", "CSS", "Bootstrap", "SQL"].map((tech, key) => (
+                {[
+                  "Spring MVC",
+                  "Hibernate",
+                  "JSP",
+                  "MySQL",
+                  "JDBC",
+                  "Maven",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/50 text-blue-500 py-1 px-3 rounded-full text-5m
+                     hover:bg-blue-500/20 hover:shadow-[0_2_8px_rgba(59,130,246,0.1)] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between"></div>
+              <a
+                href="#"
+                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+              >
+                {" "}
+                View project →
+              </a>
+            </div>
+
+            <div
+              className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30
+           hover:shadow-[0_2_8px_rgba(59,130,246,0.2)] transition"
+            >
+              <h3 className="text-xl font-bold mb-2">Bank Management System</h3>
+              <p className="text-gray-200 mb-4">
+                Designed and developed a high-performance, secure, and scalable
+                Bank Management System leveraging Spring Boot with Hibernate &
+                JPA for efficient data persistence and transaction management.
+                Implemented Spring Security for robust authentication,
+                authorization, and role-based access control. Developed a
+                responsive and dynamic UI using HTML, CSS, and Thymeleaf,
+                ensuring an intuitive user experience.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "Spring Boot",
+                  "Hibernate",
+                  "JPA",
+                  "MySQL",
+                  "Spring Security",
+                  "HTML",
+                  "CSS",
+                  "Thymeleaf",
+                  "RESTful APIs",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/50 text-blue-500 py-1 px-3 rounded-full text-5m
