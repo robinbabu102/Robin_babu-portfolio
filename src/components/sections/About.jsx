@@ -12,7 +12,14 @@ const About = () => {
     "JDBC",
   ];
   const versioncontrol = ["Git", "GitHub"];
-  const others = ["REST APIs", "Object-Oriented Programming"];
+  const others = [
+    "REST APIs",
+    "OOP",
+    "Microservices",
+    "Postman",
+    "AWS (EC2, RDS)",
+    "Logging & Debugging",
+  ];
   return (
     <section
       id="about"
@@ -115,23 +122,23 @@ const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">🏫 Eduication</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <strong>MCA</strong>
+                <strong>MCA</strong>
                 <li className="mt-2">
-                   APJ Abdul Kalam Technological University (2022-2024)
+                  APJ Abdul Kalam Technological University (2022-2024)
                 </li>
-                <li>Relavent course work:Data Structures and Algorithms,
+                <li>
+                  Relavent course work:Data Structures and Algorithms,
                   Object-Oriented Programming, Web Development, SQL and NoSQL
-                  Databases, Java, Python</li>
+                  Databases, Java, Python
+                </li>
               </ul>
 
               <ul className="list-disc list-inside text-gray-300 space-y-2 mt-2">
-              <strong>BCA</strong>
-                <li className="mt-2">
-                   University of Calicut (2019-2022)
-                </li>
+                <strong>BCA</strong>
+                <li className="mt-2">University of Calicut (2019-2022)</li>
                 <li>
-                  Relavent course work:Web Development, SQL and NoSQL
-                  Databases, C, Data Structures and Algorithms, Java
+                  Relavent course work:Web Development, SQL and NoSQL Databases,
+                  C, Data Structures and Algorithms, Java
                 </li>
               </ul>
             </div>
@@ -140,21 +147,56 @@ const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    Intern at Jspiders (06-2024 to 02-2025)
+                    <strong> Java Developer Trainee at HulkHire Tech, Hyderabad (06-2025
+                    to 08-2025)</strong>
                   </h4>
                   <p>
                     <ul className="list-disc list-inside text-gray-300 space-y-2 mt-3">
                       <li>
-                        Java Development:Proficient in OOP, exception handling, and core concepts.
+                        Contributed to developing a Core Payment Integration
+                        System using Java Spring Boot in a microservices
+                        architecture deployed on AWS.
                       </li>
                       <li>
-                        Database Management: Hands-on experience with Hibernate (ORM) and JDBC.
+                        Processing Service (Main Contribution): Implemented
+                        transaction orchestration and lifecycle management
+                        (INITIATED → PROCESSING → SUCCESS/FAILED).
                       </li>
                       <li>
-                        Frontend Development: Built responsive UIs with React, HTML, CSS, and Tailwind CSS.
+                        Assisted in integrating the Trustly Deposit API into the
+                        Provider Service to support real-time bank transfers.
+                      </li>
+                    </ul>
+                  
+                  </p>
+                
+                </div>
+
+              
+
+                <div>
+                  <h4 className="font-semibold">
+                   <strong> Intern at Jspiders (06-2024 to 02-2025)</strong>
+                  </h4>
+                  <p>
+                    <ul className="list-disc list-inside text-gray-300 space-y-2 mt-3">
+                      <li>
+                        Java Development:Proficient in OOP, exception handling,
+                        and core concepts.
+                      </li>
+                      <li>
+                        Database Management: Hands-on experience with Hibernate
+                        (ORM) and JDBC.
+                      </li>
+                      <li>
+                        Frontend Development: Built responsive UIs with React,
+                        HTML, CSS, and Tailwind CSS.
                       </li>
                       <li>Practiced 400+ SQL queries</li>
-                      <li>Version Control: Used Git and GitHub for project management.</li>
+                      <li>
+                        Version Control: Used Git and GitHub for project
+                        management.
+                      </li>
                     </ul>
                   </p>
                 </div>
