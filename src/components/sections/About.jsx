@@ -158,13 +158,13 @@ const About = () => {
                         architecture deployed on AWS.
                       </li>
                       <li>
-                        Processing Service (Main Contribution): Implemented
+                        Processing Service : Implemented
                         transaction orchestration and lifecycle management
                         (INITIATED → PROCESSING → SUCCESS/FAILED).
                       </li>
                       <li>
                         Assisted in integrating the Trustly Deposit API into the
-                        Provider Service to support real-time bank transfers.
+                        Provider Service.
                       </li>
                     </ul>
                   
