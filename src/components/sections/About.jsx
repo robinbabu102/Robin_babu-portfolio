@@ -124,7 +124,7 @@ const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <strong>MCA</strong>
                 <li className="mt-2">
-                  APJ Abdul Kalam Technological University (2022-2024)
+                APJ Abdul Kalam Technological University (2022-2024)
                 </li>
                 <li>
                   Relavent course work:Data Structures and Algorithms,
@@ -172,7 +172,6 @@ const About = () => {
                 
                 </div>
 
-              
 
                 <div>
                   <h4 className="font-semibold">
